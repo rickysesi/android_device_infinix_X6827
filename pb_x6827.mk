@@ -13,12 +13,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Inherit from X6827 device
 $(call inherit-product, device/infinix/x6827/device.mk)
 
-# Inherit some common twrp stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+# # Inherit some common PBRP stuff.
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := x6827
-PRODUCT_NAME := twrp_x6827
+PRODUCT_NAME := pb_x6827
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix HOT 20S
 PRODUCT_MANUFACTURER := infinix
