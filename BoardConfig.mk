@@ -156,6 +156,13 @@ TW_INCLUDE_FASTBOOTD := true
 TW_BACKUP_EXCLUSIONS := /data/fonts
 TW_NO_HAPTICS := true
 
+# PBRP flags
+PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_DISABLE_DEFAULT_PATCH_AVB2 := true
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+# Torch
+PB_TORCH_PATH := "sys/device/virtual/torch/torch/torch_level"
+
 # Recovery framerate
 TW_FRAMERATE := 60
 
